@@ -5,6 +5,8 @@ VisualStudioVersion = 17.12.35527.113 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApppieShop", "BlazorApppieShop\BlazorApppieShop.csproj", "{A536C530-5C8E-4EAE-A0AE-1FE78774D508}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApppieShop.Shared", "BlazorApppieShop.Shared\BlazorApppieShop.Shared.csproj", "{4E9C9F9A-174E-4735-9E5D-D6EE1C49DB14}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A536C530-5C8E-4EAE-A0AE-1FE78774D508}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A536C530-5C8E-4EAE-A0AE-1FE78774D508}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A536C530-5C8E-4EAE-A0AE-1FE78774D508}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E9C9F9A-174E-4735-9E5D-D6EE1C49DB14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E9C9F9A-174E-4735-9E5D-D6EE1C49DB14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E9C9F9A-174E-4735-9E5D-D6EE1C49DB14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E9C9F9A-174E-4735-9E5D-D6EE1C49DB14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
