@@ -1,7 +1,33 @@
 ﻿@page "/employeeoverview"
 
-<h3>EmployeeOverview</h3>
+<h1 class="page-title">All employees</h1>
 
-@code {
-
+@if (Employees == null)
+{
+    <p><em>Loading...</em></p>
 }
+else
+{
+    <table class="table">
+        <thead>
+            <tr>                
+                <th>Employee ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var employee in Employees)
+            {
+                <tr>
+                    <td>@employee.EmployeeId</td>
+                    <td>@employee.FirstName</td>
+                    <td>@employee.LastName</td>
+                </tr>
+            }
+        </tbody>
+
+    </table>
+} 
+
